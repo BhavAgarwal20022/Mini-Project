@@ -1,0 +1,138 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body{
+    margin-top: 5px;
+     background-image: url('pexels-rodion-kutsaiev-7897470.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    /* background-color: #FEDDD8; */
+    /* background-color: #daedff; */
+}
+
+figure{
+    background-color: white;
+
+}
+
+figcaption a:hover{
+    background-color: gray;
+    color: white;
+}
+
+figure:hover{
+    width: 365px;
+    height: 325px;
+}
+
+a{
+    text-decoration: none;
+    color: #56a5eb;
+}
+
+nav{
+    /* background-image: url('c.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; */
+    font-size: 1.3rem;
+    /* background-color: #56a5eb; */
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    height: 25px;
+}
+
+nav a:hover{
+    background-color: gray;
+    color: WHITE;
+    font-size: 1.5rem;
+}
+
+ul{
+    /* background-color: white; */
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    
+}
+
+nav a{
+    color: black;
+    /* border-right: 2px solid black;
+    border-left: 2px solid black; */
+}
+
+li a{
+    color: black;
+}
+
+@media screen and (max-width:600px){
+    nav{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+main{
+    padding: 50px 10px;
+}
+
+
+figure{
+    width: 360px;
+    height: 320px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.5);
+    
+}
+figcaption h3{
+    text-align: center;
+}
+figcaption a{
+    text-align: center;
+    display: block;
+}
+
+figure img{
+    width: 98%;
+    padding: 10px 0px;
+}
+h3{
+    padding: 10px 0px;
+    border-top: 2px solid black;
+}
+h4{
+    padding: 10px 0px;
+}
+p{
+    padding: 10px 0px;
+}
+figcaption{
+    padding: 10px 0px;
+}
